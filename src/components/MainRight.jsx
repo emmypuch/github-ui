@@ -1,6 +1,7 @@
 import React from 'react';
 import {IoBulbOutline} from 'react-icons/io5'
 import {MdRssFeed} from 'react-icons/md'
+import { Link } from "react-router-dom"
 
 function MainRight() {
   return (
@@ -17,7 +18,7 @@ function MainRight() {
           <h2>Welcome...This is GitHub clone with ReactJs, Sass, and React Router.</h2>
           <p>Follow me on <span>Twitter</span></p>
           <button className="btn">
-            <a href="#">GitHub Clone</a>
+            <Link to="/profile">GitHub Clone</Link>
           </button>
         </div>
 
@@ -45,6 +46,12 @@ function MainRight() {
               <h4>Shop</h4>
               <h4>GitHub Clone</h4>
               <h4>Pricing</h4>
+            </div>
+            <div className="footerSecondInside">
+              <h4>API</h4>
+              <h4>Training</h4>
+              <h4>Status</h4>
+              <h4>Security</h4>
             </div>
             <div className="footerSecondInside">
               <h4>Terms</h4>

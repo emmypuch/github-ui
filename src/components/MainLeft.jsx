@@ -1,6 +1,7 @@
 import React from 'react';
-import {IoMdArrowDropdown} from 'react-icons/io';
+import { IoMdArrowDropdown } from 'react-icons/io';
 import list from "../list.json"
+import { Link } from "react-router-dom"
 
 function MainLeft() {
   return (
@@ -36,7 +37,7 @@ function MainLeft() {
                     </div>
                 </div>
             ))}
-            <a href="#">Show More</a>
+            <Link to="/profile">Show More</Link>
         </div>
 
         {/* Line */}
