@@ -7,7 +7,7 @@ function Navbar() {
     <nav className='navbar'>
       {/* Left Navbar */}
       <div className='navLeft'>
-        <img src="/src/img/github.svg" alt=""  />
+        <img src="/src/img/github.svg" alt="Github"  />
 
         <div>
             <input type="text" placeholder='Search or jump to..' />

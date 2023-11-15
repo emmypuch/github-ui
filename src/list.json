@@ -1,0 +1,26 @@
+[
+    {
+        "name": "Emmypuch",
+        "repo": "youtube-clone",
+        "status": "Public",
+        "stack": "Nuxtjs - Sass"
+    },
+     {
+        "name": "Emmypuch",
+        "repo": "google-clone",
+        "status": "Private",
+        "stack": "Reactjs - CSS"
+    },
+     {
+        "name": "Emmypuch",
+        "repo": "udacity-clone",
+        "status": "Public",
+        "stack": "Nextjs - BootStrap"
+    },
+     {
+        "name": "Emmypuch",
+        "repo": "netflix-clone",
+        "status": "Private",
+        "stack": "Vuejs - Tailwind"
+    }
+]
