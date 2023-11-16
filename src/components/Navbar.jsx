@@ -1,13 +1,19 @@
-import React from 'react'
+import React, { useState } from 'react'
 import {FiBell, FiPlus} from 'react-icons/fi'
 import {IoMdArrowDropdown} from 'react-icons/io'
+import { Link } from 'react-router-dom';
+import Menu from './Menu'
 
 function Navbar() {
+  const [showMenu, setShowMenu] = useState(false)
+
   return (
     <nav className='navbar'>
       {/* Left Navbar */}
       <div className='navLeft'>
-        <img src="/src/img/github.svg" alt="Github"  />
+        <Link to="/">
+          <img src="/src/img/github.svg" alt="Github"  />
+        </Link>
 
         <div>
             <input type="text" placeholder='Search or jump to..' />
@@ -29,11 +35,13 @@ function Navbar() {
             <FiPlus />
             <IoMdArrowDropdown />
         </div>
-        <div className="navRightIcons">
+        <div className="navRightIcons" onClick={() => setShowMenu(!showMenu)}>
             <img src="/src/img/tihanapic.png" alt="apple" />
             <IoMdArrowDropdown />
         </div>
       </div>
+
+      {showMenu && <Menu />}
     </nav>
   );
 }

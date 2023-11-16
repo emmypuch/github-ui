@@ -26,7 +26,7 @@ function Overview() {
                 <div className="repositoriesBox" key={i}>
                     <div className="repositoriesTop">
                         <h3>{repo.repo}</h3>
-                        <p>{repo.stack}</p>
+                        <p>{repo.status}</p>
                     </div>
                     <div className="repositoriesBottom">
                         <p>{repo.stack}</p>

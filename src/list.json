@@ -22,5 +22,17 @@
         "repo": "netflix-clone",
         "status": "Private",
         "stack": "Vuejs - Tailwind"
+    },
+     {
+        "name": "Emmypuch",
+        "repo": "uber-clone",
+        "status": "Private",
+        "stack": "Nuxtjs - Material-Ui"
+    },
+     {
+        "name": "Emmypuch",
+        "repo": "apple-clone",
+        "status": "public",
+        "stack": "Vuejs - Tailwind"
     }
 ]
